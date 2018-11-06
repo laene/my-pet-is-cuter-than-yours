@@ -14,7 +14,11 @@ header {
     padding: 20px;
     font-size: 2.5em;
     font-family: 'Spicy Rice', cursive;
-    
+}
+
+#opening-statements {
+    text-align: center;
+    margin: auto;
 }
 
 .pet-profile-pic {
@@ -25,3 +29,9 @@ header {
     width: 150px;
 }
 
+.pet-profile {
+    width: 80%;
+    background-color: antiquewhite;
+    margin: auto;
+    justify-content: center;
+}
