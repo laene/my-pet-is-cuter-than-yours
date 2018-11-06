@@ -2,6 +2,7 @@ body {
     width: 100%;
     margin: 0;
     font-family: 'Raleway', sans-serif;
+    font-size: 1.25em;
 }
 
 header {
@@ -23,10 +24,15 @@ header {
 
 .pet-profile-pic {
     width: 300px;
+    margin: 20px;
+    margin-top: 0;
+    float: left;
 }
 
 .pet-bonus-picture {
     width: 150px;
+    float: right;
+    margin: 10px;
 }
 
 .pet-profile {
@@ -34,4 +40,14 @@ header {
     background-color: antiquewhite;
     margin: auto;
     justify-content: center;
+    min-height: fit-content;
+    overflow: auto;
+}
+
+.pet-name {
+    font-size: 1.5em;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 10px;
 }
