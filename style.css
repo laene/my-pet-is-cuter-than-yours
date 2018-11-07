@@ -9,7 +9,7 @@ header {
     justify-content: center;
     text-align: center;
     color: white;
-    background-color: red;
+    background-color: turquoise;
     margin: 0;
     padding: 20px;
     font-size: 2.5em;
@@ -41,7 +41,9 @@ p {
 .pet-profile {
     width: 80%;
     background-color: antiquewhite;
+    border: 5px solid slategrey;
     margin: auto;
+    margin-top: 20px;
     justify-content: center;
     min-height: fit-content;
     overflow: auto;
@@ -50,7 +52,7 @@ p {
 .pet-name {
     font-size: 1.5em;
     text-align: center;
-    background-color: blue;
+    background-color: orange;
     color: white;
     padding: 10px;
 }
